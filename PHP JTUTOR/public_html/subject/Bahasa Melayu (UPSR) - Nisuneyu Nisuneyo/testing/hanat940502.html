@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JTutor - Quiz</title>
+    <link rel="shortcut icon" href="https://www.jtutor.ml/img/favicon.ico">
+
+    <style type="text/css">
+    	html{
+    		background-color: #5e4674;
+    		background-image: url('https://www.jtutor.ml/img/loading.gif');
+    		background-repeat: no-repeat;
+		    background-attachment: fixed;
+		    background-position: center; 
+    	}
+    </style>
+</head>
+<body>
+<script>
+    var url_string = window.location.href; //window.location.href
+var url = new URL(url_string);
+var id = url.searchParams.get("id");
+var name = url.searchParams.get("name");
+"The full URL of this page is:<br> " + "https://www.jtutor.ml/forum/?id="+ id + "&name=" + name;
+if(id !== 'null' && name !== 'null'){
+    window.location = "https://www.jtutor.ml/forum/?id="+ id + "&name=" + name;
+}else{
+    window.location = "https://www.jtutor.ml/forums/";
+}
+</script>
+
+</body>
+</html>

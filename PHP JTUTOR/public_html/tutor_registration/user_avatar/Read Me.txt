@@ -1,0 +1,2 @@
+* This is Where User Registered Avatar is saved
+* Don't Delete Default User Avatar (Default.png)

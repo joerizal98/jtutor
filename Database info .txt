@@ -1,0 +1,19 @@
+Db Name: u779679936_chat
+Host: localhost
+Username: u779679936_jtuto
+Password: 6FPoKVxFfEfs
+
+Db Name: u779679936_forum
+Host: localhost
+Username: u779679936_jtutf
+Password: nAZoFlWGx8S^
+
+Db Name: u779679936_jtut
+Host: localhost
+Username: u779679936_jtut0
+Password: yGW442MtTygp
+
+Db Name: u779679936_quiz
+Host: localhost
+Username: u779679936_jtutf
+Password: XFic8EwzfHFl
